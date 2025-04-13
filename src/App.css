@@ -1,0 +1,47 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 350px;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.sidebar-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sidebar-content {
+    margin-top: 1rem;
+}
+
+.sidebar-buttons {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.sidebar-buttons button {
+    flex: 1;
+    padding: 0.5rem;
+    background: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.sidebar-buttons button:hover {
+    background: #3367d6;
+}
